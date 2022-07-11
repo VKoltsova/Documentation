@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "f08ea0ef-b713-49b6-941a-f6ccb1f3b172",
+		"name": "Test_task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19249552"
+	},
+	"item": [
+		{
+			"name": "1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://demo1152609.mockable.io/users",
+					"protocol": "http",
+					"host": [
+						"demo1152609",
+						"mockable",
+						"io"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "123412341234",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://demo1152609.mockable.io/create/user",
+					"protocol": "http",
+					"host": [
+						"demo1152609",
+						"mockable",
+						"io"
+					],
+					"path": [
+						"create",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://demo1152609.mockable.io/update/user",
+					"protocol": "http",
+					"host": [
+						"demo1152609",
+						"mockable",
+						"io"
+					],
+					"path": [
+						"update",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "api-token",
+						"value": "e123eboy123e123r123",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://demo1152609.mockable.io/delete/user",
+					"protocol": "http",
+					"host": [
+						"demo1152609",
+						"mockable",
+						"io"
+					],
+					"path": [
+						"delete",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
